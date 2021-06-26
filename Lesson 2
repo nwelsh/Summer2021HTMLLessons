@@ -1,0 +1,10 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title> Lesson 2 </title> 
+  </head>
+  <body>
+    <p><a href="https://www.w3schools.com/">This website is helpful!</a></p>
+    <img height= 100px width= 100px border = 1px src="man.jpg" alt="logo">
+  </body>
+</html>
