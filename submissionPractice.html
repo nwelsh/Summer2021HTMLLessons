@@ -6,22 +6,13 @@ https://htmlpreview.github.io/?
 
 -->
 
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>Send e-mail to someone@example.com:</h2>
-
-<form action="mailto:nicole17welsh@gmail.com" method="post" enctype="text/plain">
-Name:<br>
-<input type="text" name="name"><br>
-E-mail:<br>
-<input type="text" name="mail"><br>
-Comment:<br>
-<input type="text" name="comment" size="50"><br><br>
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
-</form>
-
-</body>
-</html>
+  <form method="post" name="contact_form"
+    action="contact-form-handler.php">
+        Your Name:
+        <input type="text" name="name">
+        Email Address:
+        <input type="text" name="email">
+        Message:
+        <textarea name="message"></textarea>
+        <input type="submit" value="Submit">
+    </form>
