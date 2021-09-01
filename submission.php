@@ -4,7 +4,7 @@ https://htmlpreview.github.io/?
 -->
 <?php
     $errors = '';
-    $myemail = 'yourname@website.com';//<-----Put Your email address here.
+    $myemail = 'nicole17welsh@gmail.com';//<-----Put Your email address here.
     if(empty($_POST['name'])  ||
        empty($_POST['email']) ||
        empty($_POST['message']))
